@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;1,300&display=swap');
 
 :root{
     --primary-color: #FBBF24;
     --max-width: 600px;
     --width-color: black;
+    --color-gray: gray;
 }
 
 *{
@@ -50,6 +51,10 @@ button{
     font-family: inherit;
     background-color: var(--primary-color);
     border: none;
+}
+
+main div p{
+    color: var(--color-gray);
 }
 
 .translate-output{
